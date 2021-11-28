@@ -15,6 +15,11 @@ module.exports = {
       line: '#2F415B',
       white: colors.white,
     },
+    fontWeight: {
+      light: 300,
+      normal: 400,
+      semibold: 600,
+    },
     extend: {},
   },
   variants: {

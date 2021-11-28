@@ -1,0 +1,37 @@
+.card {
+  box-shadow: 0px 15px 10px 10px hsl(216deg 54% 10%);
+}
+
+.container {
+  position: relative;
+}
+
+.container:hover .overlay {
+  opacity: 0.4;
+}
+
+
+.container:hover .icon {
+  opacity: 1;
+}
+
+
+.overlay {
+  position: absolute;
+  border-radius: 0.375rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: #00FFF7;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
